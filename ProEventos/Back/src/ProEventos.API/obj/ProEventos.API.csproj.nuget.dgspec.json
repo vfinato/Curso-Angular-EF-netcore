@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Finato\\Documents\\Repositório Códigos\\AnuglarEfCore\\Curso-Angular-EF-netcore\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
+    "C:\\Users\\Finato\\Documents\\Repositório Códigos\\AnuglarEfCore\\Curso-Angular-EF-netcore\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Finato\\Documents\\Repositório Códigos\\AnuglarEfCore\\Curso-Angular-EF-netcore\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
+    "C:\\Users\\Finato\\Documents\\Repositório Códigos\\AnuglarEfCore\\Curso-Angular-EF-netcore\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Finato\\Documents\\Repositório Códigos\\AnuglarEfCore\\Curso-Angular-EF-netcore\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectUniqueName": "C:\\Users\\Finato\\Documents\\Repositório Códigos\\AnuglarEfCore\\Curso-Angular-EF-netcore\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "C:\\Users\\Finato\\Documents\\Repositório Códigos\\AnuglarEfCore\\Curso-Angular-EF-netcore\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectPath": "C:\\Users\\Finato\\Documents\\Repositório Códigos\\AnuglarEfCore\\Curso-Angular-EF-netcore\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "packagesPath": "C:\\Users\\Finato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Finato\\Documents\\Repositório Códigos\\AnuglarEfCore\\Curso-Angular-EF-netcore\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
+        "outputPath": "C:\\Users\\Finato\\Documents\\Repositório Códigos\\AnuglarEfCore\\Curso-Angular-EF-netcore\\ProEventos\\back\\src\\ProEventos.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -45,6 +45,26 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
